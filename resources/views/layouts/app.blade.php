@@ -24,10 +24,10 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel" style="background-color: #BEB4B4!important;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Larafoto
+                    <img src="{{ asset('/img/logo2.png') }}" width="105" height="57" >
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@
 							<a href="{{ route('likes') }}" class="nav-link">Favoritas</a>
 						</li>
 						<li class="nav-item">
-							<a href="{{ route('image.create') }}" class="nav-link">Subir imagen</a>
+							<a href="{{ route('image.create') }}" class="nav-link">Subir Imagen</a>
 						</li>
 						
 						<li>
